@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:actionBarStyle">@style/my_actionbar_style</item>
+        <item name="android:actionBarSize">100dip</item>
+        <!-- Support library compatibility -->
+        <item name="actionBarStyle">@style/my_actionbar_style</item>
+        <item name="actionBarSize">60dip</item>
+    </style>
+
+    <style name="my_actionbar_style"
+        parent="Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/background_material_dark</item>
+        <!-- Support library compatibility -->
+        <item name="background">@color/background_material_dark</item>
+    </style>
+
+
+</resources>

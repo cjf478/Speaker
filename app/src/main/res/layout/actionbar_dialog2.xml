@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="63.0dp">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/leftbt"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:gravity="center|start"
+        android:text="返回"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_weight="10">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="10"
+            android:id="@+id/up_tv"
+            android:background="@android:color/transparent"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/white"
+            />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/rightbt"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/white"
+        android:textAlignment="center"
+        android:text="合成"
+        android:gravity="center|end"/>
+</LinearLayout>
